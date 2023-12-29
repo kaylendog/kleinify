@@ -17,8 +17,7 @@
 		"experimentalDecorators": true,
 		"incremental": true,
 		"noFallthroughCasesInSwitch": true,
-		"noUncheckedIndexedAccess": true,
-		"noPropertyAccessFromIndexSignature": true
+		"noUncheckedIndexedAccess": true
 	},
 	"exclude": ["node_modules"]
 }

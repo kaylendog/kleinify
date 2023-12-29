@@ -1,5 +1,15 @@
 {
 	"extends": ["../../.eslintrc.js", "next/core-web-vitals"],
+	"rules": {
+		// error enabled to prevent bundling of code we don't actually use
+		"@typescript-eslint/consistent-type-imports": [
+			"error",
+			{
+				"prefer": "type-imports",
+				"fixStyle": "inline-type-imports"
+			}
+		]
+	},
 	"globals": {
 		"React": true
 	}

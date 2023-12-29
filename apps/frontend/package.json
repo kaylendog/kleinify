@@ -8,10 +8,21 @@
 		"lint": "eslint ."
 	},
 	"dependencies": {
+		"@supabase/auth-helpers-nextjs": "^0.8.7",
+		"@supabase/auth-ui-react": "^0.4.6",
+		"@supabase/auth-ui-shared": "^0.1.8",
+		"@supabase/supabase-js": "^2.39.1",
+		"@tanstack/react-query": "^4.0.0",
+		"@trpc/client": "^10.45.0",
+		"@trpc/next": "^10.45.0",
+		"@trpc/react-query": "^10.45.0",
+		"@trpc/server": "^10.45.0",
+		"jotai": "^2.6.1",
 		"next": "latest",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
-		"styled-components": "^6.1.0"
+		"styled-components": "^6.1.0",
+		"zod": "^3.22.4"
 	},
 	"devDependencies": {
 		"@kleinify/typescript-config": "workspace:*",

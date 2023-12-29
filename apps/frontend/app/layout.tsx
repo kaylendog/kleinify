@@ -1,6 +1,6 @@
 "use client";
 
-import { DefaultTheme, ThemeProvider } from "styled-components";
+import { type DefaultTheme, ThemeProvider } from "styled-components";
 
 import GlobalStyle from "@/components/globalstyles";
 import StyledComponentsRegistry from "@/components/registry";
