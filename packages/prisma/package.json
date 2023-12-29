@@ -3,6 +3,9 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "src/index.ts",
+	"scripts": {
+		"lint": "eslint src"
+	},
 	"devDependencies": {
 		"@kleinify/typescript-config": "workspace:*",
 		"prisma": "^5.7.1"
