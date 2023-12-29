@@ -7,8 +7,6 @@
 		"**/.DS_Store": true,
 		"**/Thumbs.db": true,
 		".turbo/": true,
-		".husky/": true,
-		".*": true,
-		".vscode": false
+		".husky/": true
 	}
 }
