@@ -1,0 +1,25 @@
+{
+	"name": "kleinify",
+	"private": true,
+	"scripts": {
+		"prepare": "husky install"
+	},
+	"engines": {
+		"node": ">=20",
+		"pnpm": ">=8"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^18.4.3",
+		"@commitlint/config-conventional": "^18.4.3",
+		"@typescript-eslint/eslint-plugin": "^6.16.0",
+		"@typescript-eslint/parser": "^6.16.0",
+		"eslint": "^8.56.0",
+		"eslint-config-infernal": "^3.0.2",
+		"husky": "^8.0.3",
+		"lint-staged": "^15.2.0",
+		"prettier": "^3.1.1",
+		"prettier-config-infernal": "^1.1.2",
+		"turbo": "^1.11.2",
+		"typescript": "^5.3.3"
+	}
+}
